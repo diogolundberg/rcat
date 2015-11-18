@@ -81,8 +81,8 @@ public class rtest {
 			to accomplish what you want */
 		try {
 			REXP x;
-			re.eval("data(iris)",false);
-			System.out.println(x=re.eval("iris"));
+			re.eval("data(Ana)",false);
+			System.out.println(x=re.eval("Ana"));
 			// generic vectors are RVector to accomodate names
 			RVector v = x.asVector();
 			if (v.getNames()!=null) {
