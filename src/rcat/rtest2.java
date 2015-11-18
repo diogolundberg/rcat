@@ -81,6 +81,6 @@ public class rtest2 {
 		System.setOut(new PrintStream(new RConsoleOutputStream(re, 0)));
 		System.setErr(new PrintStream(new RConsoleOutputStream(re, 1)));
 		
-		System.out.println("Letting go; use main loop from now on");
+		System.out.println("Hello World");
     }
 }
